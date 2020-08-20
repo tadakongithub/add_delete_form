@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 25% 75%;
+}
+
+.bottom{
+    border-top: 1px solid #ddd;
+}
+
+table.table{
+    width: 500px;
+}
+
+.each-person{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid rgb(193, 190, 190, .7);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.field-container{
+    margin-bottom: 30px;
+}
